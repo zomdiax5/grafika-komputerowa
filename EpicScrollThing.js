@@ -26,7 +26,6 @@ setInterval(function () {
         panel=0;
         is_scrolling=false;
     }
-    console.log(panel)
     oldValue = window.scrollY
     let target_position=window.innerHeight*panel
     if(!is_scrolling){
